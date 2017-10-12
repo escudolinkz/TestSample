@@ -9,7 +9,7 @@ class UrusPagesController extends Controller
 	public function getHome(){
 		return view ( 'home' );
 	}
-	
+	//login function
 	public function getLogin(){
    		return view ( 'daftar.login' );
 	}
